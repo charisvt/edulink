@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T15:05:51.791Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="o7UU-mte5pv8agbli5Cs" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T18:57:49.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="-vN8LdAZue0JYTpC3VN3" version="22.1.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1808" dy="1503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1751" dy="1479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -192,7 +192,7 @@
         <mxCell id="SYxVixTw1T1CfeYf5jqY-84" value="Session" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-280" y="1621" width="140" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="SYxVixTw1T1CfeYf5jqY-85" value="+ID : Primary&amp;nbsp;&lt;br&gt;+InstructorID : Foreign&lt;br&gt;+CourseID: Foreign&lt;br&gt;+Date&lt;br&gt;+Duration&lt;br&gt;+Status&lt;br&gt;+MaximumEnrollment&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+CurrentEnrollment" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="SYxVixTw1T1CfeYf5jqY-84" vertex="1">
+        <mxCell id="SYxVixTw1T1CfeYf5jqY-85" value="+ID : Primary&amp;nbsp;&lt;br&gt;+InstructorID : Foreign&lt;br&gt;+CourseID: Foreign&lt;br&gt;+Date&lt;br&gt;+Duration&lt;br&gt;+Status&lt;br&gt;+MaximumEnrollment" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="SYxVixTw1T1CfeYf5jqY-84" vertex="1">
           <mxGeometry y="50" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="SYxVixTw1T1CfeYf5jqY-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="SYxVixTw1T1CfeYf5jqY-84" source="SYxVixTw1T1CfeYf5jqY-85" target="SYxVixTw1T1CfeYf5jqY-85" edge="1">
@@ -341,7 +341,7 @@
         <mxCell id="dSWaEuiNYRZja54lhorQ-32" value="Session" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-350" y="1021" width="140" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="dSWaEuiNYRZja54lhorQ-33" value="+ID&lt;br&gt;+Date&lt;br&gt;+Duration&lt;br&gt;+Status (active, inactive)&lt;br&gt;+MaximumEnrollment&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+CurrentEnrollment" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="dSWaEuiNYRZja54lhorQ-32" vertex="1">
+        <mxCell id="dSWaEuiNYRZja54lhorQ-33" value="+ID&lt;br&gt;+Date&lt;br&gt;+Duration&lt;br&gt;+Status (active, inactive)&lt;br&gt;+MaximumEnrollment&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="dSWaEuiNYRZja54lhorQ-32" vertex="1">
           <mxGeometry y="50" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dSWaEuiNYRZja54lhorQ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="dSWaEuiNYRZja54lhorQ-32" source="dSWaEuiNYRZja54lhorQ-33" target="dSWaEuiNYRZja54lhorQ-33" edge="1">
